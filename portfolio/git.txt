@@ -1,0 +1,22 @@
+git init
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+git status
+git add . / git add index.html
+git commit -m "first commit"
+
+git branch -M main
+git remote add origin https://github.com/username/repository-name.git
+git push -u origin main
+
+{
+	git add .
+	git commit -m "updated" 
+	git push -u origin main
+}
+
+git log --oneline
+
+git clone <url>
