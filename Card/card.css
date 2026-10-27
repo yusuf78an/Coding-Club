@@ -1,0 +1,58 @@
+h1{
+    background-color: rgb(8, 8, 121);
+    color: white;
+    font-display: block;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.main{
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgb(20, 20, 253);
+    transition: 0.3s;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    width:320px;
+    height: 400px;
+}
+.main:hover{
+    transform: scale(1.1)
+}
+
+.icon{
+    font-size: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.main h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.hii{
+    text-align: center;
+    font-size: large;
+    font-family:sans-serif;
+}
+
+.para p{
+    font-size: 20px;
+    padding: 15px;
+    font-family: sans-serif;
+}
